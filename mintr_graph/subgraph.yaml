@@ -1,0 +1,26 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: MintrNFT
+    network: sepolia
+    source:
+      address: "0xe381e763AD9d51D1fcCa3232014a07764B480782"
+      abi: MintrNFT
+      startBlock: 5308967
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - TransferNFT
+      abis:
+        - name: MintrNFT
+          file: ./abis/MintrNFT.json
+      eventHandlers:
+        - event: TransferNFT(uint256,address,address,uint256)
+          handler: handleTransferNFT
+      file: ./src/mintr-nft.ts

@@ -1,0 +1,8 @@
+{
+  "sepolia": {
+    "MintrNFT": {
+      "address": "0xc6fdce5859c86537f8aa857c963be9bccbda95e6",
+      "startBlock": 5307042
+    }
+  }
+}

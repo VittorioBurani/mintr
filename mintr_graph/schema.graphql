@@ -1,0 +1,7 @@
+type NFT @entity(immutable: false) {
+  id: ID!
+  from: Bytes! # address
+  to: Bytes! # address
+  price: BigInt! # uint256
+  tokenUri: String! # string
+}
