@@ -16,6 +16,7 @@ const wallet = useWalletStore();
         <p class="fs-3 my-4">The only NFT marketplace you'll ever need for your next project</p>
         <p class="fs-4 mb-4">Built on top of Web3. By the community, for the community</p>
         <p class="fs-5 mb-4">The source code is open and is available on GitHub: <a href="https://github.com/VittorioBurani/mintr">https://github.com/VittorioBurani/mintr</a></p>
+        <p class="fs-5 mb-4">Mintr logo by <a href="https://icon-icons.com/users/Icon-Icons/icon-sets/">Icon-Icons</a></p>
     </div>
 </template>
 
